@@ -6,7 +6,7 @@ import express from 'express'
 import cors from 'cors'
 /* tslint:disable no-var-requires */
 import bodyParser from 'body-parser'
-import gplay from 'google-play-scraper'	//baraye server ok hast
+//import gplay from 'google-play-scraper'	//baraye server ok hast
 
 const app = express()
 // app.use(express.urlencoded({extended: true}))	// for parsing application/x-www-form-urlencoded 
@@ -16,11 +16,11 @@ app.use(cors())
 
 app.get('/', bodyParser.json(), async function () {
 	console.log('sssss')
-	var getList = await gplay.list({
+	/* var getList = await gplay.list({
 		category: gplay.category.GAME_ACTION,
 		collection: gplay.collection.TOP_FREE,
 		num: 2
-	})
+	}) */
 	// .then(console.log
 	// getList = data
 	/* await data.map(async (value) => {
