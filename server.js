@@ -1,13 +1,13 @@
 import { createRequire } from "module";
 const require = createRequire(import.meta.url);
 /* tslint:disable no-var-requires */
-const express = require('express')
+import express from 'express'
 // const fs = require('fs')
 /* tslint:disable no-var-requires */
-const cors = require('cors')
+import cors from 'cors'
 /* tslint:disable no-var-requires */
-const bodyParser = require('body-parser')
-const gplay = require('google-play-scraper')	//baraye server ok hast
+import bodyParser from 'body-parser'
+import gplay from 'google-play-scraper'	//baraye server ok hast
 
 const app = express()
 // app.use(express.urlencoded({extended: true}))	// for parsing application/x-www-form-urlencoded 
