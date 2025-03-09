@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "https://aarostami.github.io/GooglePlayList",
-  "type": "commonjs",
+  "//type": "commonjs",
+  "type": "module",
   "scripts": {
     "//dev": "cross-env NODE_OPTIONS='--inspect' next dev",
     "dev": "concurrently \"next dev\" \"nodemon ./app/server.js\"",
