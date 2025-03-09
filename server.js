@@ -2,7 +2,6 @@
 //const require = createRequire(import.meta.url);
 const express = require('express')
 // const fs = require('fs')
-/* tslint:disable no-var-requires */
 import cors from 'cors'
 /* tslint:disable no-var-requires */
 import bodyParser from 'body-parser'
