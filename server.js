@@ -1,6 +1,6 @@
 //import { createRequire } from "module";
 //const require = createRequire(import.meta.url);
-import express from 'express'
+const express = require('express')
 // const fs = require('fs')
 /* tslint:disable no-var-requires */
 import cors from 'cors'
