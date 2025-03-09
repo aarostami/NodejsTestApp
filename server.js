@@ -5,7 +5,7 @@ const express = require('express')
 const cors = require('cors')
 /* tslint:disable no-var-requires */
 const bodyParser = require('body-parser')
-import gplay from 'google-play-scraper'	//baraye server ok hast
+const gplay = require('google-play-scraper')	//baraye server ok hast
 
 const app = express()
 // app.use(express.urlencoded({extended: true}))	// for parsing application/x-www-form-urlencoded 
