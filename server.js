@@ -28,8 +28,9 @@ app.get('/', bodyParser.json(), async function () {
 		})
 	}) */
 	// );
-	console.log(getList)
+	//console.log(getList)
 	// res.send({ data: getList })
+	res.send('ssssdd')
 })
 
 app.post('/', bodyParser.json(), function (req, res) {
