@@ -1,10 +1,9 @@
 //import { createRequire } from "module";
 //const require = createRequire(import.meta.url);
 const express = require('express')
-// const fs = require('fs')
-import cors from 'cors'
+const cors = require('cors')
 /* tslint:disable no-var-requires */
-import bodyParser from 'body-parser'
+const bodyParser = require('body-parser')
 //import gplay from 'google-play-scraper'	//baraye server ok hast
 
 const app = express()
