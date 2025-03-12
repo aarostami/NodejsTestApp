@@ -12,7 +12,7 @@ const app = express()
 // app.use(bodyParser.urlencoded())
 app.use(cors())
 
-app.get('/', bodyParser.json(), async function () {
+app.get('/', bodyParser.json(), async function (req, res) {
 	console.log('sssss')
 	/* var getList = await gplay.list({
 		category: gplay.category.GAME_ACTION,
